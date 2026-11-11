@@ -970,7 +970,7 @@ Browse all: [https://www.reviewramble.com/github-repos](https://www.reviewramble
 
 ## Contributing
 
-Know a tool that belongs here? [Suggest it on ReviewRamble](https://www.reviewramble.com/submit-tool) or open an issue. Entries are added once they have a full review.
+**Suggest an AI tool, model, MCP server, or open-source repository:** [Use the ReviewRamble submission form](https://www.reviewramble.com/submit-tool), or [open a GitHub suggestion](https://github.com/swaroski/reviewramble/issues/new/choose). See [contribution guidelines](CONTRIBUTING.md) for listing standards, corrections, and pull requests. Community submissions may be listed as *unrated* before an independent review is published.
 
 ## License
 
