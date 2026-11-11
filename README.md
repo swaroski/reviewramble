@@ -1,6 +1,8 @@
 # Awesome AI Tools, Models, MCP Servers and Repos [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated, independently reviewed list of AI tools, models, MCP servers and open-source repos, maintained by [ReviewRamble](https://www.reviewramble.com).
+> Discover and compare **AI tools, LLMs, AI agents, agent frameworks, coding assistants, MCP servers, open-source AI projects, and developer infrastructure**. A curated directory maintained by [ReviewRamble](https://www.reviewramble.com), with independent reviews and community suggestions.
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE) [![Submit a tool](https://img.shields.io/badge/Suggest-an_AI_tool-blue)](https://www.reviewramble.com/submit-tool) [![Link checks](https://github.com/swaroski/reviewramble/actions/workflows/link-check.yml/badge.svg)](https://github.com/swaroski/reviewramble/actions/workflows/link-check.yml)
 
 Rated entries link to full ReviewRamble reviews covering pricing, strengths, limitations, and sources. Unrated community submissions link directly to the upstream project and are identified as such. Ratings are out of 5. Updated 2026-11-11.
 
