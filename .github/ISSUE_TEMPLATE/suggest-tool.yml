@@ -1,0 +1,60 @@
+name: Suggest an AI tool or project
+description: Suggest an AI tool, model, MCP server, or GitHub repository for consideration.
+title: "[Suggestion] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Preferred submission form:** https://www.reviewramble.com/submit-tool
+        You may also suggest a listing here. Submission does not guarantee a review or rating.
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      placeholder: Example AI Project
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Official website or GitHub repository
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - AI tool
+        - AI model
+        - MCP server
+        - GitHub repository
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What does it do and why should it be listed?
+      description: Include concrete capabilities, intended users, and links to primary documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: caveats
+    attributes:
+      label: Pricing, license, platform support, and limitations
+      description: Mention relevant prerequisites, permissions, restrictions, or security caveats.
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Your relationship to the project
+      options:
+        - Maintainer / creator
+        - Employee / contributor
+        - User
+        - No affiliation
+        - Other
+    validations:
+      required: true
