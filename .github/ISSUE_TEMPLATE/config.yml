@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Submit an AI tool to ReviewRamble
+    url: https://www.reviewramble.com/submit-tool
+    about: Preferred route to suggest AI tools, models, MCP servers, and open-source repositories.
