@@ -4,6 +4,8 @@
 
 Rated entries link to full ReviewRamble reviews covering pricing, strengths, limitations, and sources. Unrated community submissions link directly to the upstream project and are identified as such. Ratings are out of 5. Updated 2026-11-11.
 
+**Want to suggest an AI tool, model, MCP server, or GitHub project? [Submit it to ReviewRamble](https://www.reviewramble.com/submit-tool) for consideration.**
+
 ## Contents
 
 - [AI Tools](#ai-tools) (168)
