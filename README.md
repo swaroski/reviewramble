@@ -2,7 +2,7 @@
 
 > A curated, independently reviewed list of AI tools, models, MCP servers and open-source repos, maintained by [ReviewRamble](https://www.reviewramble.com).
 
-Every entry links to a full ReviewRamble review covering pricing, what it does well and where it falls short, with sources. Ratings are out of 5. Updated 2026-11-01.
+Rated entries link to full ReviewRamble reviews covering pricing, strengths, limitations, and sources. Unrated community submissions link directly to the upstream project and are identified as such. Ratings are out of 5. Updated 2026-11-11.
 
 ## Contents
 
@@ -41,7 +41,7 @@ Every entry links to a full ReviewRamble review covering pricing, what it does w
   - [Speech to text](#ai-models-speech-to-text)
   - [Music & audio](#ai-models-music--audio)
   - [Embeddings & reranking](#ai-models-embeddings--reranking)
-- [MCP Servers](#mcp-servers) (107)
+- [MCP Servers](#mcp-servers) (109)
   - [Code & dev tools](#mcp-servers-code--dev-tools)
   - [Version control](#mcp-servers-version-control)
   - [Security](#mcp-servers-security)
@@ -513,6 +513,7 @@ Browse all: [https://www.reviewramble.com/mcp-tools](https://www.reviewramble.co
 
 ### MCP Servers: Code & dev tools
 
+- [Kilobat CLI](https://github.com/seifip/kilobat-cli) (community submission · unrated): GPL-3.0-only macOS network diagnostics CLI with a local stdio MCP server for AI agents to inspect connectivity, Wi-Fi, DNS, and network status. Requires macOS 14+; its Homebrew source build requires Xcode 16+. Some functions need permissions or the separate Kilobat app, and permission prompts are controlled by the MCP client. [Source](https://github.com/seifip/kilobat-cli) · [Suggestion #2](https://github.com/swaroski/reviewramble/issues/2)
 - [Context7](https://www.reviewramble.com/mcp-tools/context7) (4.5/5): Upstash's two-tool server that feeds coding agents current, version-specific library docs, from a hosted index you cannot see inside. [Website](https://context7.com)
 - [Sentry MCP](https://www.reviewramble.com/mcp-tools/sentry) (4.3/5): Sentry's hosted MCP server that hands error, trace and issue data from Sentry to coding agents for debugging. [Website](https://mcp.sentry.dev)
 - [Langfuse MCP Server](https://www.reviewramble.com/mcp-tools/langfuse-mcp) (4.2/5): Langfuse's own hosted MCP endpoint: prompts, traces, datasets, scores, evaluators and dashboards for one project, read and write. [Website](https://langfuse.com/docs/api-and-data-platform/features/mcp-server)
@@ -563,6 +564,7 @@ Browse all: [https://www.reviewramble.com/mcp-tools](https://www.reviewramble.co
 
 ### MCP Servers: Data & databases
 
+- [DC Hub](https://github.com/azmartone67/dchub-mcp-server) (community submission · unrated): Remote MCP server for data-center and energy research, including grid capacity, interconnection queues, electricity prices, fiber, and market/site-selection data. Offers a 94-tool catalog and dated source citations; no-key previews are available, with a free key for additional access. [MCP endpoint](https://dchub.cloud/mcp) · [Source](https://github.com/azmartone67/dchub-mcp-server) · [Suggestion #1](https://github.com/swaroski/reviewramble/issues/1)
 - [Supabase MCP Server](https://www.reviewramble.com/mcp-tools/supabase) (4.6/5): Supabase's hosted MCP server: schema, SQL, migrations, Edge Functions, logs and branches, with project scoping and read-only mode. [Website](https://supabase.com/docs/guides/getting-started/mcp)
 - [MCP Toolbox for Databases](https://www.reviewramble.com/mcp-tools/mcp-toolbox) (4.5/5): Google's open-source database server: prebuilt SQL tools for 40-odd sources, or your own vetted queries defined in YAML. [Website](https://mcp-toolbox.dev/)
 - [MongoDB MCP Server](https://www.reviewramble.com/mcp-tools/mongodb) (4.4/5): MongoDB’s official server: 53 tools for queries, schema, indexes and Atlas admin, with read-only mode in every example. [Website](https://www.mongodb.com/docs/mcp-server/)
